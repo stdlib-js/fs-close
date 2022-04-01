@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/fs-close",
+  "version": "0.0.0",
+  "description": "Close a file descriptor.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/fs-close.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdfs",
+    "fs",
+    "close",
+    "closesync",
+    "path",
+    "async",
+    "sync",
+    "file",
+    "open",
+    "filesystem"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}

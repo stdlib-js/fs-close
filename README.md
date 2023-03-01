@@ -163,9 +163,9 @@ function done( error ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/fs/exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
--   <span class="package-name">[`@stdlib/fs/open`][@stdlib/fs/open]</span><span class="delimiter">: </span><span class="description">open a file.</span>
--   <span class="package-name">[`@stdlib/fs/read-file`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
+-   <span class="package-name">[`@stdlib/fs-exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
+-   <span class="package-name">[`@stdlib/fs-open`][@stdlib/fs/open]</span><span class="delimiter">: </span><span class="description">open a file.</span>
+-   <span class="package-name">[`@stdlib/fs-read-file`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
 
 </section>
 

@@ -35,7 +35,23 @@ limitations under the License.
 
 > Close a file descriptor.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/fs-close
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -44,13 +60,7 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+var close = require( '@stdlib/fs-close' );
 ```
 
 #### close( fd, clbk )
@@ -60,7 +70,7 @@ Asynchronously closes a file descriptor, so that the file descriptor no longer r
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-var openSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-open' ).sync;
+var openSync = require( '@stdlib/fs-open' ).sync;
 
 var fd = openSync( __filename );
 close( fd, done );
@@ -79,7 +89,7 @@ Synchronously closes a file descriptor.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-var openSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-open' ).sync;
+var openSync = require( '@stdlib/fs-open' ).sync;
 
 var fd = openSync( __filename );
 
@@ -113,8 +123,8 @@ if ( err instanceof Error ) {
 
 ```javascript
 var join = require( 'path' ).join;
-var openSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-open' ).sync;
-import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+var openSync = require( '@stdlib/fs-open' ).sync;
+var close = require( '@stdlib/fs-close' );
 
 var err;
 
@@ -181,7 +191,7 @@ function done( error ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -245,11 +255,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/fs/exists]: https://github.com/stdlib-js/fs-exists/tree/deno
+[@stdlib/fs/exists]: https://github.com/stdlib-js/fs-exists
 
-[@stdlib/fs/open]: https://github.com/stdlib-js/fs-open/tree/deno
+[@stdlib/fs/open]: https://github.com/stdlib-js/fs-open
 
-[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/deno
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file
 
 <!-- </related-links> -->
 

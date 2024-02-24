@@ -44,13 +44,18 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
+import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/fs-close/tags). For example,
+
+```javascript
 import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.1-deno/mod.js';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
 ```
 
 #### close( fd, clbk )
@@ -114,7 +119,7 @@ if ( err instanceof Error ) {
 ```javascript
 var join = require( 'path' ).join;
 var openSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-open' ).sync;
-import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.1-deno/mod.js';
+import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
 
 var err;
 

@@ -44,13 +44,13 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.2-deno/mod.js';
 ```
 
 #### close( fd, clbk )
@@ -114,7 +114,7 @@ if ( err instanceof Error ) {
 ```javascript
 var join = require( 'path' ).join;
 var openSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-open' ).sync;
-import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@deno/mod.js';
+import close from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-close@v0.2.2-deno/mod.js';
 
 var err;
 
